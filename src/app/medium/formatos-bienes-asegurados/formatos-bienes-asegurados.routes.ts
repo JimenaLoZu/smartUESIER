@@ -15,7 +15,6 @@ import { DevolucionDelBienComponent } from './devolucion-del-bien/devolucion-del
 import { DestruccionDelBienComponent } from './destruccion-del-bien/destruccion-del-bien.component';
 import { DisposicionFinalBienesNoAdministrablesComponent } from './disposicion-final-bienes-no-administrables/disposicion-final-bienes-no-administrables.component';
 import { SolicitudDeOpinionAFemedComponent } from "./solicitud-de-opinion-a-femed/solicitud-de-opinion-a-femed.component";
-import { RespuestaDeProcedenciaDeIniciarJuicioDeExtincionDeDominioComponent } from "./respuesta-de-procedencia-de-iniciar-juicio-de-extincion-de-dominio/respuesta-de-procedencia-de-iniciar-juicio-de-extincion-de-dominio.component";
 import { DemandaDeExtincionDeDominioComponent } from './demanda-de-extincion-de-dominio/demanda-de-extincion-de-dominio.component';
 import { CambioDeAmpfComponent } from "./cambio-de-ampf/cambio-de-ampf.component";
 import { DeclinacionPorIncompetenciaComponent } from './declinacion-por-incompetencia/declinacion-por-incompetencia.component';
@@ -95,10 +94,6 @@ export const FORMATO_BIENES_ASEGURADOS_ROUTE: Route[] = [
     {
         path: 'solicitud-de-opinion-a-femed',
         component: SolicitudDeOpinionAFemedComponent
-    },
-    {
-        path: 'respuesta-de-procedencia-de-iniciar-juicio-de-extincion-de-dominio',
-        component: RespuestaDeProcedenciaDeIniciarJuicioDeExtincionDeDominioComponent
     },
     {
         path: 'demanda-de-extincion-de-dominio',
