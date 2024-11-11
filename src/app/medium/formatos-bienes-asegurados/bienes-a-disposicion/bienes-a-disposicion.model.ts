@@ -2,7 +2,7 @@ export class BienesDisposicion {
   ID: number;
   ID_CI: number;
   CI: string;
-  ID_CAT_TIPO_BIEN: number;
+  ID_CAT_TIPO_DE_BIEN	: number;
   CARACTERISTICAS: string;
   FOLIO_INVENTARIO_BIEN: string;
   FECHA_FOLIO_INVENTARIO_BIEN: Date;
@@ -13,7 +13,7 @@ export class BienesDisposicion {
     this.ID = bienesDisposicion.ID;
     this.ID_CI = bienesDisposicion.ID_CI;
     this.CI = bienesDisposicion.CI;
-    this.ID_CAT_TIPO_BIEN = bienesDisposicion.ID_CAT_TIPO_BIEN;
+    this.ID_CAT_TIPO_DE_BIEN	 = bienesDisposicion.ID_CAT_TIPO_DE_BIEN	;
     this.CARACTERISTICAS = bienesDisposicion.CARACTERISTICAS;
     this.FOLIO_INVENTARIO_BIEN = bienesDisposicion.FOLIO_INVENTARIO_BIEN;
     this.FECHA_FOLIO_INVENTARIO_BIEN =

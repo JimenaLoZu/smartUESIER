@@ -18,6 +18,11 @@ export const MEDIUM_ROUTE: Route[] = [
         
     },
     {
+        path: 'responsabilidad-profesional',
+        loadChildren: () => import('./responsabilidad-profesional/responsabilidad-profesional.routes').then((m) => m.RESPONSABILIDAD_PROFESIONAL)
+        
+    },
+    {
         path: 'estados-juridicos',
         loadChildren: () => import('./estados-juridicos/estados-juridicos.routes').then((m) => m.ESTADOS_JURIDICOS_ROUTE)
     },

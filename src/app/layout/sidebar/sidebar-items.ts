@@ -796,7 +796,7 @@ export const ROUTES: RouteInfo[] = [
     path: '/medium/formatos-bienes-asegurados/dashboard',
     title: 'Formatos bienes asegurados',
     iconType: 'material-icons-outlined',
-    icon: 'account_balance',
+    icon: 'description',
     class: '',
     groupTitle: false,
     badge: '',
@@ -805,7 +805,7 @@ export const ROUTES: RouteInfo[] = [
     submenu: [
       {
         path: '/medium/formatos-bienes-asegurados/inicio-de-carpeta',
-        title: 'Inicio de carpeta',
+        title: 'Inicio de Carpeta',
         iconType: '',
         icon: '',
         class: 'ml-menu',
@@ -829,7 +829,7 @@ export const ROUTES: RouteInfo[] = [
       },
       {
         path: '/medium/formatos-bienes-asegurados/acuerdo-aseguramiento-de-bienes',
-        title: 'Aseguramiento de bienes',
+        title: 'Acuerdo de Aseguramiento',
         iconType: '',
         icon: '',
         class: 'ml-menu',
@@ -841,7 +841,7 @@ export const ROUTES: RouteInfo[] = [
       },
       {
         path: '/medium/formatos-bienes-asegurados/solicitud-de-peritaje',
-        title: 'Solicitud de peritaje',
+        title: 'Solicitud de Peritaje',
         iconType: '',
         icon: '',
         class: 'ml-menu',
@@ -853,7 +853,7 @@ export const ROUTES: RouteInfo[] = [
       },
       {
         path: '/medium/formatos-bienes-asegurados/entrega-de-muestras-al-cfpf',
-        title: 'Entrega de muestras al CFPF',
+        title: 'Entrega de Muestras al CFPF',
         iconType: '',
         icon: '',
         class: 'ml-menu',
@@ -865,7 +865,7 @@ export const ROUTES: RouteInfo[] = [
       },
       {
         path: '/medium/formatos-bienes-asegurados/resultado-de-dictamen-pericial',
-        title: 'Resultado dictamen pericial',
+        title: 'Resultado Dictamen Pericial',
         iconType: '',
         icon: '',
         class: 'ml-menu',
@@ -877,7 +877,7 @@ export const ROUTES: RouteInfo[] = [
       },
       {
         path: '/medium/formatos-bienes-asegurados/solicitud-de-traslado-del-bien',
-        title: 'Solicitud de traslado',
+        title: 'Solicitud de Traslado',
         iconType: '',
         icon: '',
         class: 'ml-menu',
@@ -889,7 +889,7 @@ export const ROUTES: RouteInfo[] = [
       },
       {
         path: '/medium/formatos-bienes-asegurados/traslado-del-bien',
-        title: 'Traslado del bien',
+        title: 'Traslado del Bien',
         iconType: '',
         icon: '',
         class: 'ml-menu',
@@ -901,7 +901,7 @@ export const ROUTES: RouteInfo[] = [
       },
       {
         path: '/medium/formatos-bienes-asegurados/entrega-recepcion-del-bien-nueva-ubicacion',
-        title: 'Entrega-recepción del bien en nueva ubicación',
+        title: 'Entrega-Recepción del Bien en Nueva Ubicación',
         iconType: '',
         icon: '',
         class: 'ml-menu',
@@ -913,7 +913,7 @@ export const ROUTES: RouteInfo[] = [
       },
       {
         path: '/medium/formatos-bienes-asegurados/almacenamiento-custodia-del-bien',
-        title: 'Custodia del bien',
+        title: 'Custodia del Bien',
         iconType: '',
         icon: '',
         class: 'ml-menu',
@@ -925,7 +925,7 @@ export const ROUTES: RouteInfo[] = [
       },
       {
         path: '/medium/formatos-bienes-asegurados/cambio-de-ubicacion-del-bien-para-resguardo',
-        title: 'Cambio de ubicación del bien',
+        title: 'Cambio de Ubicación del Bien',
         iconType: '',
         icon: '',
         class: 'ml-menu',
@@ -937,7 +937,7 @@ export const ROUTES: RouteInfo[] = [
       },
       {
         path: '/medium/formatos-bienes-asegurados/disposicion-final-por-conclusion',
-        title: 'Disposición final del bien por conclusión',
+        title: 'Disposición Final del Bien por Conclusión',
         iconType: '',
         icon: '',
         class: 'ml-menu',
@@ -949,7 +949,7 @@ export const ROUTES: RouteInfo[] = [
       },
       {
         path: '/medium/formatos-bienes-asegurados/devolucion-del-bien',
-        title: 'Devolución del bien',
+        title: 'Devolución del Bien',
         iconType: '',
         icon: '',
         class: 'ml-menu',
@@ -961,7 +961,7 @@ export const ROUTES: RouteInfo[] = [
       },
       {
         path: '/medium/formatos-bienes-asegurados/destruccion-del-bien',
-        title: 'Destrucción del bien',
+        title: 'Destrucción del Bien',
         iconType: '',
         icon: '',
         class: 'ml-menu',
@@ -973,7 +973,7 @@ export const ROUTES: RouteInfo[] = [
       },
       {
         path: '/medium/formatos-bienes-asegurados/disposicion-final-bienes-no-administrables',
-        title: 'Disposición final de bienes no administrables',
+        title: 'Disposición Final de Bienes no Administrables',
         iconType: '',
         icon: '',
         class: 'ml-menu',
@@ -985,7 +985,7 @@ export const ROUTES: RouteInfo[] = [
       },
       {
         path: '/medium/formatos-bienes-asegurados/solicitud-de-opinion-a-femed',
-        title: 'Solicitud de opinión a FEMED',
+        title: 'Solicitud de Opinión a FEMED',
         iconType: '',
         icon: '',
         class: 'ml-menu',
@@ -997,7 +997,7 @@ export const ROUTES: RouteInfo[] = [
       },
       {
         path: '/medium/formatos-bienes-asegurados/respuesta-de-procedencia-de-iniciar-juicio-de-extincion-de-dominio',
-        title: 'Respuesta sobre la procedencia de iniciar juicio de extinción de dominio',
+        title: 'Respuesta Sobre la Procedencia de Iniciar Juicio de Extinción de Dominio',
         iconType: '',
         icon: '',
         class: 'ml-menu',
@@ -1009,7 +1009,7 @@ export const ROUTES: RouteInfo[] = [
       },
       {
         path: '/medium/formatos-bienes-asegurados/demanda-de-extincion-de-dominio',
-        title: 'Demanda de extinción de dominio',
+        title: 'Demanda de Extinción de Dominio',
         iconType: '',
         icon: '',
         class: 'ml-menu',
@@ -1021,7 +1021,7 @@ export const ROUTES: RouteInfo[] = [
       },
       {
         path: '/medium/formatos-bienes-asegurados/cambio-de-ampf',
-        title: 'Cambio de la persona AMPF',
+        title: 'Cambio de la Persona AMPF',
         iconType: '',
         icon: '',
         class: 'ml-menu',
@@ -1033,7 +1033,7 @@ export const ROUTES: RouteInfo[] = [
       },
       {
         path: '/medium/formatos-bienes-asegurados/declinacion-por-incompetencia',
-        title: 'Declinación por incompetencia',
+        title: 'Declinación por Incompetencia',
         iconType: '',
         icon: '',
         class: 'ml-menu',
@@ -1045,7 +1045,34 @@ export const ROUTES: RouteInfo[] = [
       },
 
     ]
-  }, {
+  },
+  {
+    path: '/medium/responsabilidad-profesional/dashboard',
+    title: 'Responsabilidad Profesional',
+    iconType: 'material-icons-outlined',
+    icon: 'work',
+    class: '',
+    groupTitle: false,
+    badge: '',
+    badgeClass: '',
+    role: ['Medium'],
+    submenu: [
+      {
+        path: '/medium/responsabilidad-profesional/medica',
+        title: 'Médica',
+        iconType: '',
+        icon: '',
+        class: 'ml-menu',
+        groupTitle: false,
+        badge: '',
+        badgeClass: '',
+        role: [''],
+        submenu: [],
+      }
+    ]
+
+  },
+  {
     path: '/medium/estados-juridicos/dashboard',
     title: 'Estados Jurídicos',
     iconType: 'material-icons-outlined',

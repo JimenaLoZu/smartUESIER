@@ -26,7 +26,7 @@ export interface DialogData{
 export interface BienDisposicionForm {
   ACT: number;
   ID_CI: number;
-  ID_CAT_TIPO_BIEN: number;
+  ID_CAT_TIPO_DE_BIEN: number;
   CARACTERISTICAS: string;
   FOLIO_INVENTARIO_BIEN: string;
   FECHA_FOLIO_INVENTARIO_BIEN: Date;
@@ -115,7 +115,7 @@ export class FormAddComponent {
       ID: [this.bienesDisposicion.ID],
       ID_CI: [this.bienesDisposicion.ID_CI],
       CI: [this.bienesDisposicion.CI],
-      ID_CAT_TIPO_BIEN: [this.bienesDisposicion.ID_CAT_TIPO_BIEN],
+      ID_CAT_TIPO_DE_BIEN	: [this.bienesDisposicion.ID_CAT_TIPO_DE_BIEN	],
       CARACTERISTICAS: [this.bienesDisposicion.CARACTERISTICAS],
       FOLIO_INVENTARIO_BIEN: [this.bienesDisposicion.FOLIO_INVENTARIO_BIEN],
       FECHA_FOLIO_INVENTARIO_BIEN: [this.bienesDisposicion.FECHA_FOLIO_INVENTARIO_BIEN],
@@ -130,7 +130,7 @@ export class FormAddComponent {
       ID: value.ID,
       ID_CI: value.ID_CI,
       CI: value.CI,
-      ID_CAT_TIPO_BIEN: value.ID_CAT_TIPO_BIEN,
+      ID_CAT_TIPO_DE_BIEN	: value.ID_CAT_TIPO_DE_BIEN,
       CARACTERISTICAS: value.CARACTERISTICAS,
       FOLIO_INVENTARIO_BIEN: value.FOLIO_INVENTARIO_BIEN,
       FECHA_FOLIO_INVENTARIO_BIEN: value.FECHA_FOLIO_INVENTARIO_BIEN,
@@ -157,9 +157,6 @@ export class FormAddComponent {
       });
     
     }
-
-  
-    
   }
 
   onNoClick() {

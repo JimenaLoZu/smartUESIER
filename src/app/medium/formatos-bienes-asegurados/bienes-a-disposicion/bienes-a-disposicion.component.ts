@@ -71,7 +71,7 @@ export class BienesADisposicionComponent
   displayedColumns = [
     'ID',
     'CI',
-    'ID_CAT_TIPO_BIEN',
+    'ID_CAT_TIPO_DE_BIEN',
     'CARACTERISTICAS',
     'FOLIO_INVENTARIO_BIEN',
     'FECHA_FOLIO_INVENTARIO_BIEN',
@@ -218,7 +218,7 @@ export class BienesADisposicionComponent
       this.dataSource.filteredData.map((x) => ({
         'ID': x.ID,
         'CI': x.CI,
-        'TIPO DE BIEN': x.ID_CAT_TIPO_BIEN,
+        'TIPO DE BIEN': x.ID_CAT_TIPO_DE_BIEN	,
         'CARACTERISTICAS': x.CARACTERISTICAS,
         'FOLIO INVENTARIO BIEN': x.FOLIO_INVENTARIO_BIEN,
         'FECHA FOLIO INVENTARIO BIEN': moment(x.FECHA_FOLIO_INVENTARIO_BIEN).format("YYYY-MM-DD"),
@@ -286,7 +286,7 @@ export class ExampleDataSource extends DataSource<BienesDisposicion> {
               bienesDisposicion.ID +
               bienesDisposicion.ID_CI +
               bienesDisposicion.CI +
-              bienesDisposicion.ID_CAT_TIPO_BIEN +
+              bienesDisposicion.ID_CAT_TIPO_DE_BIEN	 +
               bienesDisposicion.CARACTERISTICAS +
               bienesDisposicion.FOLIO_INVENTARIO_BIEN +
               bienesDisposicion.FECHA_DE_ENTREGA_A_AMPF_DEL_INVENTARIO +
@@ -325,8 +325,8 @@ export class ExampleDataSource extends DataSource<BienesDisposicion> {
           [propertyA, propertyB] = [a.ID_CI, b.ID_CI];
           break;
 
-        case 'ID_CAT_TIPO_BIEN':
-          [propertyA, propertyB] = [a.ID_CAT_TIPO_BIEN, b.ID_CAT_TIPO_BIEN];
+        case 'ID_CAT_TIPO_DE_BIEN	':
+          [propertyA, propertyB] = [a.ID_CAT_TIPO_DE_BIEN	, b.ID_CAT_TIPO_DE_BIEN	];
           break;
 
         /* case 'ID_CAT_EMPLEADO':
