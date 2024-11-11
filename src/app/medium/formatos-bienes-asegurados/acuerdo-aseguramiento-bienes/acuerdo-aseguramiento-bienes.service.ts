@@ -1,8 +1,9 @@
 import { Injectable } from '@angular/core';
-import { BehaviorSubject, Observable } from "rxjs";
-import { HttpClient, HttpHeaders, HttpErrorResponse } from "@angular/common/http";
-import { UnsubscribeOnDestroyAdapter } from "@shared";
-import { environment } from "environments/environment.development";
+import { UnsubscribeOnDestroyAdapter } from '@shared';
+import { HttpClient, HttpErrorResponse, HttpHeaders } from '@angular/common/http';
+import { environment } from 'environments/environment.development';
+import { AcuerdoAseguramientoBienesComponent } from './acuerdo-aseguramiento-bienes.component';
+import { BehaviorSubject, Observable } from 'rxjs';
 import { AcuerdoDeAseguramiento } from './acuerdo-aseguramiento-bienes.model';
 
 

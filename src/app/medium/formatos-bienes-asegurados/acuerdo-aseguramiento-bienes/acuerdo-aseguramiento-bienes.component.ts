@@ -51,7 +51,7 @@ import { FormAddComponent } from './dialogs/form-add/form-add.component';
     MatProgressSpinnerModule,
     MatMenuModule,
     MatPaginatorModule,
-    DatePipe,
+    DatePipe
   ],
   templateUrl: './acuerdo-aseguramiento-bienes.component.html',
   styleUrl: './acuerdo-aseguramiento-bienes.component.scss'
@@ -359,5 +359,5 @@ export class ExampleDataSource extends DataSource<AcuerdoDeAseguramiento>{
       );
     });
   }
-
 }
+
